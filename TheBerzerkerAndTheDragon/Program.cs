@@ -65,6 +65,7 @@ namespace TheBerzerkerAndTheDragon
                                 Console.WriteLine("");
                                 Console.WriteLine("1. Search for a torch, better to be cautious");
                                 Console.WriteLine("2. Go into the darkness, you are a berserker, danmit!");
+                                Console.WriteLine("3. Run like a chicken.");
 
                                 option = int.Parse(Console.ReadLine());
 
@@ -80,13 +81,19 @@ namespace TheBerzerkerAndTheDragon
                                     }
                                     else
                                     {
-                                        Console.WriteLine("No encontraste ninguna antorcha");
+                                        Console.WriteLine("You search for almost an hour for a torch, but didn't find anything.");
+                                        Console.WriteLine("You now remember the old woman saying no one has stepped this ruins for a long, long time.");
+                                        Console.WriteLine("Now you will have to grope for a way into the darkness.");
                                         command = "intodarkness";
                                     }
                                 }
                                 else if (option == 2)
                                 {
                                     command = "intodarkness";
+                                }
+                                else if (option == 3)
+                                {
+                                    command = "run";
                                 }
                                 else
                                 {
@@ -118,7 +125,7 @@ namespace TheBerzerkerAndTheDragon
                                 }
                                 else if (option == 3)
                                 {
-                                    command = "salir";
+                                    command = "run";
                                 }
                                 else
                                 {
@@ -130,7 +137,7 @@ namespace TheBerzerkerAndTheDragon
 
                                 break;
 
-                            case "salir": //3
+                            case "run": //3
                                 option = 0;
 
                                 Console.WriteLine("Sabes que no estás preparado para esto");
@@ -168,7 +175,7 @@ namespace TheBerzerkerAndTheDragon
                                 }
                                 else if (option == 3)
                                 {
-                                    command = "salir";
+                                    command = "run";
                                 }
                                 else
                                 {
@@ -208,7 +215,7 @@ namespace TheBerzerkerAndTheDragon
                                 }
                                 else if (option == 3)
                                 {
-                                    command = "salir";
+                                    command = "run";
                                 }
                                 else
                                 {
