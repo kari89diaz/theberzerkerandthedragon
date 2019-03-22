@@ -5,3 +5,10 @@ C:\Users\kari8\OneDrive\Escritorio\The Berzerker and the Dragon\TheBerzerkerAndT
 C:\Users\kari8\OneDrive\Escritorio\The Berzerker and the Dragon\TheBerzerkerAndTheDragon\TheBerzerkerAndTheDragon\bin\Debug\TheBerzerkerAndTheDragon.pdb
 C:\Users\kari8\OneDrive\Escritorio\The Berzerker and the Dragon\TheBerzerkerAndTheDragon\TheBerzerkerAndTheDragon\obj\Debug\TheBerzerkerAndTheDragon.exe
 C:\Users\kari8\OneDrive\Escritorio\The Berzerker and the Dragon\TheBerzerkerAndTheDragon\TheBerzerkerAndTheDragon\obj\Debug\TheBerzerkerAndTheDragon.pdb
+C:\Juegos\TheBerzerkerAndTheDragon\TheBerzerkerAndTheDragon\bin\Debug\TheBerzerkerAndTheDragon.exe.config
+C:\Juegos\TheBerzerkerAndTheDragon\TheBerzerkerAndTheDragon\bin\Debug\TheBerzerkerAndTheDragon.exe
+C:\Juegos\TheBerzerkerAndTheDragon\TheBerzerkerAndTheDragon\bin\Debug\TheBerzerkerAndTheDragon.pdb
+C:\Juegos\TheBerzerkerAndTheDragon\TheBerzerkerAndTheDragon\obj\Debug\TheBerzerkerAndTheDragon.csprojAssemblyReference.cache
+C:\Juegos\TheBerzerkerAndTheDragon\TheBerzerkerAndTheDragon\obj\Debug\TheBerzerkerAndTheDragon.csproj.CoreCompileInputs.cache
+C:\Juegos\TheBerzerkerAndTheDragon\TheBerzerkerAndTheDragon\obj\Debug\TheBerzerkerAndTheDragon.exe
+C:\Juegos\TheBerzerkerAndTheDragon\TheBerzerkerAndTheDragon\obj\Debug\TheBerzerkerAndTheDragon.pdb
