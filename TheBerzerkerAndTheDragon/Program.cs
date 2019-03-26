@@ -108,24 +108,25 @@ namespace TheBerzerkerAndTheDragon
                             case "searchtorch": //2
                                 option = 0;
 
-                                Console.WriteLine("Encuentras una antorcha. Ves un pasillo y un pozo");
-                                Console.WriteLine("1. Seguir pasillo");
-                                Console.WriteLine("2. Bajar pozo");
-                                Console.WriteLine("3. Salir");
+                                Console.WriteLine("You decide to search for a torch in the darkness to enlight you way through that ruins. After a arduous search you manage to find a torch");
+                                Console.WriteLine("You think that's strange because the old woman says that no one was steped on this ruins for a long time.");
+                                Console.WriteLine("That old witch fouls you, and now you know it. You burn in anger, but you know that you have to go on with your quest, in the end, you are a berserker");
+                                Console.WriteLine("");
+                                Console.WriteLine("Now that you have the torch, you turn it on and you can see a big entrance room, with a well in the center and a hallway on the other side from you.")
+                                Console.WriteLine("What do you want to do?");
+                                Console.WriteLine("");
+                                Console.WriteLine("1. Look into the well.");
+                                Console.WriteLine("2. Ignore the well and go directly to the hallway.");
 
                                 option = int.Parse(Console.ReadLine());
 
                                 if (option == 1)
                                 {
-                                    command = "followlight";
+                                    command = "lookwell";
                                 }
                                 else if (option == 2)
                                 {
-                                    command = "bajar pozo";
-                                }
-                                else if (option == 3)
-                                {
-                                    command = "run";
+                                    command = "followlight";
                                 }
                                 else
                                 {
@@ -140,16 +141,27 @@ namespace TheBerzerkerAndTheDragon
                             case "run": //3
                                 option = 0;
 
-                                Console.WriteLine("Sabes que no estás preparado para esto");
+                                Console.WriteLine("You know that you aren't prepare for this challenge, you coward!");
                                 Console.ReadKey();
                                 Environment.Exit(-1);
 
                                 break;
 
-                            case "bajar pozo": //4
+                            case "lookwell": //4
                                 option = 0;
 
-                                Console.WriteLine("Bajaste al pozo y una serpiente venenosa te mordió");
+                                Console.WriteLine("You get closer to the well. It's totally black, and the borders are unestable.");
+                                Console.WriteLine("Your natural curiosity leads you to the corner of the well");
+                                Console.WriteLine("You forget that you are a big and heavy man, and a little clumsy, and you slide from the border and fall into the well");
+                                Console.WriteLine("The fall isn't painful, the well wasn't deep, but you feel a lot of crawling things at your sides and under your body");
+                                Console.ReadKey();
+                                Console.WriteLine("Now over you");
+                                Console.ReadKey();
+                                Console.WriteLine("You feel a little bite");
+                                Console.ReadKey();
+                                Console.WriteLine("Now you feel deezy");
+                                Console.ReadKey();
+                                Console.WriteLine("Now you are dead");
                                 Console.ReadKey();
                                 Environment.Exit(-1);
 
